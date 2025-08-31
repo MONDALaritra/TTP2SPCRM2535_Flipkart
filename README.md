@@ -76,3 +76,16 @@ text
 - Generates HTML reports through ExtentReports.
 - Takes screenshots automatically on test failures.
 - Comprehensive logs generated for every test run.
+- EmailableReport
+  
+  <img width="1920" height="1080" alt="Screenshot 2025-08-30 084701" src="https://github.com/user-attachments/assets/a75dd113-4719-4a0b-8db2-8623cbe28616" />
+
+- ExtentReport
+
+  <img width="1919" height="1079" alt="Screenshot 2025-08-30 092400" src="https://github.com/user-attachments/assets/c4e7a60b-c23c-4c2d-91d7-0d8f92637a96" />
+
+  <img width="1920" height="1080" alt="Screenshot 2025-08-30 092410" src="https://github.com/user-attachments/assets/25a51426-d38d-4896-8492-7dfb2e97f742" />
+
+
+
+
