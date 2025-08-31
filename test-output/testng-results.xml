@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-30T11:01:39 IST" name="Suite" finished-at="2025-08-30T11:02:39 IST" duration-ms="60131">
+    <groups>
+    </groups>
+    <test started-at="2025-08-30T11:01:39 IST" name="Test" finished-at="2025-08-30T11:02:39 IST" duration-ms="60131">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.LoginTest@fa4c865]" started-at="2025-08-30T11:01:19 IST" name="setUp" finished-at="2025-08-30T11:01:39 IST" duration-ms="19806" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:tests.LoginTest@fa4c865]" started-at="2025-08-30T11:01:39 IST" name="setupReport" finished-at="2025-08-30T11:01:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="verifyLoginUIElements()[pri:0, instance:tests.LoginTest@fa4c865]" started-at="2025-08-30T11:01:39 IST" name="verifyLoginUIElements" finished-at="2025-08-30T11:01:40 IST" duration-ms="1071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginUIElements -->
+        <test-method signature="loginWithValidPhoneAndPassword(java.lang.String)[pri:1, instance:tests.LoginTest@fa4c865]" started-at="2025-08-30T11:01:40 IST" name="loginWithValidPhoneAndPassword" data-provider="phoneNumber" finished-at="2025-08-30T11:01:43 IST" duration-ms="2984" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[81010]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidPhoneAndPassword -->
+        <test-method signature="loginWithValidPhoneAndPassword(java.lang.String)[pri:1, instance:tests.LoginTest@fa4c865]" started-at="2025-08-30T11:01:43 IST" name="loginWithValidPhoneAndPassword" data-provider="phoneNumber" finished-at="2025-08-30T11:02:06 IST" duration-ms="22558" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8101017099]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidPhoneAndPassword -->
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:tests.LoginTest@fa4c865]" started-at="2025-08-30T11:02:39 IST" name="tearDownReport" finished-at="2025-08-30T11:02:39 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownReport -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@fa4c865]" started-at="2025-08-30T11:02:39 IST" name="tearDown" finished-at="2025-08-30T11:02:39 IST" duration-ms="417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.CartTest">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:tests.CartTest@24313fcc]" started-at="2025-08-30T11:01:39 IST" name="setupReport" finished-at="2025-08-30T11:01:39 IST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="addToCart()[pri:0, instance:tests.CartTest@24313fcc]" started-at="2025-08-30T11:02:20 IST" name="addToCart" finished-at="2025-08-30T11:02:23 IST" duration-ms="3100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method signature="modifyQuantityAndVerify()[pri:1, instance:tests.CartTest@24313fcc]" started-at="2025-08-30T11:02:23 IST" name="modifyQuantityAndVerify" finished-at="2025-08-30T11:02:27 IST" duration-ms="4158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyQuantityAndVerify -->
+        <test-method signature="removeItemAndConfirm()[pri:2, instance:tests.CartTest@24313fcc]" started-at="2025-08-30T11:02:27 IST" name="removeItemAndConfirm" finished-at="2025-08-30T11:02:36 IST" duration-ms="9355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeItemAndConfirm -->
+        <test-method signature="proceedToBuyAndCheckAddressPaymentPage()[pri:3, instance:tests.CartTest@24313fcc]" started-at="2025-08-30T11:02:36 IST" name="proceedToBuyAndCheckAddressPaymentPage" finished-at="2025-08-30T11:02:39 IST" duration-ms="2426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedToBuyAndCheckAddressPaymentPage -->
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:tests.CartTest@24313fcc]" started-at="2025-08-30T11:02:39 IST" name="tearDownReport" finished-at="2025-08-30T11:02:39 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownReport -->
+      </class> <!-- tests.CartTest -->
+      <class name="tests.ProductTest">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:tests.ProductTest@5e5d171f]" started-at="2025-08-30T11:01:39 IST" name="setupReport" finished-at="2025-08-30T11:01:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="searchElectronicItem(java.lang.String)[pri:2, instance:tests.ProductTest@5e5d171f]" started-at="2025-08-30T11:02:06 IST" name="searchElectronicItem" data-provider="itemToSearch" finished-at="2025-08-30T11:02:06 IST" duration-ms="197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchElectronicItem -->
+        <test-method signature="searchElectronicItem(java.lang.String)[pri:2, instance:tests.ProductTest@5e5d171f]" started-at="2025-08-30T11:02:06 IST" name="searchElectronicItem" data-provider="itemToSearch" finished-at="2025-08-30T11:02:08 IST" duration-ms="1821" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobile phone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchElectronicItem -->
+        <test-method signature="sortResults(java.lang.String)[pri:3, instance:tests.ProductTest@5e5d171f]" started-at="2025-08-30T11:02:08 IST" name="sortResults" data-provider="sortingCondition" finished-at="2025-08-30T11:02:08 IST" duration-ms="114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[High to low]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortResults -->
+        <test-method signature="sortResults(java.lang.String)[pri:3, instance:tests.ProductTest@5e5d171f]" started-at="2025-08-30T11:02:08 IST" name="sortResults" data-provider="sortingCondition" finished-at="2025-08-30T11:02:08 IST" duration-ms="462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Low to high]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortResults -->
+        <test-method signature="sortResults(java.lang.String)[pri:3, instance:tests.ProductTest@5e5d171f]" started-at="2025-08-30T11:02:08 IST" name="sortResults" data-provider="sortingCondition" finished-at="2025-08-30T11:02:09 IST" duration-ms="480" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[popularity]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortResults -->
+        <test-method signature="applyFilters(java.lang.String,int,int,java.lang.String)[pri:4, instance:tests.ProductTest@5e5d171f]" started-at="2025-08-30T11:02:09 IST" name="applyFilters" data-provider="filters" finished-at="2025-08-30T11:02:18 IST" duration-ms="9347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Realme]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyFilters -->
+        <test-method signature="selectProduct()[pri:5, instance:tests.ProductTest@5e5d171f]" started-at="2025-08-30T11:02:18 IST" name="selectProduct" finished-at="2025-08-30T11:02:20 IST" duration-ms="1370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProduct -->
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:tests.ProductTest@5e5d171f]" started-at="2025-08-30T11:02:39 IST" name="tearDownReport" finished-at="2025-08-30T11:02:39 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownReport -->
+      </class> <!-- tests.ProductTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
